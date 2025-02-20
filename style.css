@@ -1,0 +1,179 @@
+/*TIPOGRAFIAS*/
+
+  
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+  .be-vietnam-pro-regular {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .be-vietnam-pro-medium {
+    font-family: "Be Vietnam Pro",sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+/*hasta acá*/
+
+
+.navbar{
+    background-color: #AD1400;
+    color: #FFFFFF;
+}
+.navbar-brand1{
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+.navbar-brand1,.nav-link1{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+.nav-link1{
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: .3em;
+}
+.navbar-nav .nav-item {
+    margin: 0 15px; /* Ajusta el margen según sea necesario */
+}
+.navbar-toggler{
+    color:#ffffff;
+
+}
+
+
+.welcome-message {
+    background-color: #00CCAD; /* Color de fondo */
+    color: #000F0D; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    padding: 20px; /* Espaciado interno */
+    position: relative; /* Posicionamiento relativo */
+    width: 100%; /* Ancho completo */
+}
+.welcome-message p, h1 {
+    color: #000F0D;
+}
+
+.btn{
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 500;
+    font-size: 20px; 
+    color:#ffffff;
+    background-color:#390202;
+    border:none;
+    border-radius: .9em;
+}
+.card-body .btn {
+    background-color:#AD1400;
+}
+.jumbotron .btn{
+    background-color:#AD1400;
+}
+
+p{  font-family: "Be Vietnam Pro",sans-serif;
+    font-weight: 400;
+    font-size: 20px; 
+    color:#390202;; 
+}
+.carousel-caption p {
+    font-size: 16px;
+    color:#ffffff;
+}
+h1{  font-family: "Merriweather", serif;
+    font-weight: 700;
+    color:#390202;
+    font-size: 48px; 
+
+}
+h2{font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-size: 36px; 
+    color:#390202;
+}
+.carousel-caption h2{
+    color:#ffffff;
+}
+
+.card-img-top{
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: 400px; /* Define una altura fija para todas las imágenes */
+    object-fit: cover;
+    border-radius: .9em;
+}
+.jumbotron{
+    background-color: #FCE7E7;
+}
+
+footer {
+    background-color: #AD1400; /* Color de fondo del footer */
+    color: #ffffff; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+}
+
+.footer-bottom {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.footer-links {
+    display: flex; /* Usar flexbox para alinear los enlaces */
+    justify-content: center; /* Centra los enlaces */
+}
+
+.footer-links a {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 1em; /* Ajusta el margen según sea necesario */
+}
+
+.social-icons {
+    display: flex; /* Usar flexbox para alinear los iconos */
+    justify-content: center; /* Centra los iconos */
+}
+
+.social-icons a {
+    margin: 0 10px; /* Espaciado entre iconos */
+    text-decoration: none; /* Sin subrayado */
+    color: rgb(255, 255, 255); /* Color de los iconos */
+}
+
+.footer-content {
+    display: flex; /* Usar flexbox para alinear los elementos */
+    justify-content: center; /* Centra todos los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.social-icons a {
+    margin: 0 10px; /* Espaciado entre íconos */
+}
+
+.material-symbols-outlined {
+    font-size: 30px; /* Tamaño de los iconos */
+    color: white; /* Color de los iconos */
+}
+.material-symbols-outlined :hover{
+    text-decoration: none;
+}
+
+
