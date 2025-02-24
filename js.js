@@ -29,8 +29,8 @@ const btnsPrimary = document.querySelectorAll('.btn-primary');
     // Iterar sobre cada botón y agregar los eventos
     btnsPrimary.forEach(btn => {
         btn.addEventListener('mouseover', () => {
-            btn.style.backgroundColor = '#ff3a20'; // Cambiar color al pasar el mouse
-            btn.style.color = '#390202'; // Cambiar color del texto
+            btn.style.backgroundColor = '#FF6652'; // Cambiar color al pasar el mouse
+            btn.style.color = '#000000'; // Cambiar color del texto
         });
 
         btn.addEventListener('mouseout', () => {
